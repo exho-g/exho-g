@@ -105,6 +105,10 @@
             display: flex;
             gap: 0.25rem;
 
+            @media #{$s-d} {
+                justify-content: center;
+            }
+
             a {
                 margin: unset;
                 i.left {
