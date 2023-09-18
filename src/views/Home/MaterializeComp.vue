@@ -34,7 +34,6 @@
 .materialize {
     padding: 20rem 0;
     position: relative;
-    overflow: hidden;
     background-image: linear-gradient(
         to bottom right,
         var(--primary-color-lighten-40),
