@@ -1,0 +1,25 @@
+// Responsive breakpoints
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$extra-medium-screen-up: 1101px !default;
+$large-screen-up: 1201px !default;
+
+$small-screen: 600.99px !default;
+$medium-screen: 992.99px !default;
+$extra-medium-screen: 1100.99px !default;
+$large-screen: 1200.99px !default;
+// Responsive media selector
+// xl- extra large, l - large, xm - extra medium, m - medium, s - small
+// u - up, d - down, o - only
+$m-u: "only screen and (min-width : #{$small-screen-up})" !default;
+$xm-u: "only screen and (min-width : #{$extra-medium-screen-up})" !default;
+$l-u: "only screen and (min-width : #{$medium-screen-up})" !default;
+$xl-u: "only screen and (min-width : #{$large-screen-up})" !default;
+
+$s-d: "only screen and (max-width : #{$small-screen})" !default;
+$m-d: "only screen and (max-width : #{$medium-screen})" !default;
+$m-o: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+$xm-o: "only screen and (min-width : #{$extra-medium-screen-up}) and (max-width : #{$extra-medium-screen})" !default;
+$xm-d: "only screen and (max-width : #{$extra-medium-screen})" !default;
+$l-d: "only screen and (max-width : #{$large-screen})" !default;
+// usage: @media #{$m-u} { styles }
