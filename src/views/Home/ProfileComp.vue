@@ -1,12 +1,8 @@
 <template>
     <div class="profile container">
         <div class="photo" data-aos="zoom-out" data-aos-duration="1000">
-            <img
-                src="https://avatars.githubusercontent.com/u/32479267?v=4"
-                alt="Echo"
-                :key="i"
-                v-for="i in 2"
-            />
+            <!-- src="https://avatars.githubusercontent.com/u/32479267?v=4" -->
+            <img alt="Echo" src="/src/assets/dp.jpg" :key="i" v-for="i in 2" />
         </div>
         <div class="details" data-aos="fade-right" data-aos-duration="1000">
             <h1>

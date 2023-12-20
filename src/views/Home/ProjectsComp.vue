@@ -1,16 +1,30 @@
+<script setup lang="ts">
+import { onMounted, ref } from 'vue'
+import projectData from '@/assets/projects/data.json'
+import Masonry from 'masonry-layout'
+
+const projects = projectData.projects
+let msnryEl = ref(null)
+let msnry = ref({})
+
+onMounted(() => {
+    msnry.value = new Masonry('.cards', {
+        itemSelector: '.card-panel',
+        gutter: 30
+    })
+})
+</script>
+
 <template>
-    <div class="projects" data-aos="fade-up">
+    <div class="projects" data-aos="fade-down" data-aos-duration="500">
         <div class="container">
             <h2 data-aos="fade-right">Projects <small class="bbn">ᜉ᜔ᜍᜓ︀ᜌᜒ︀ᜃ᜔ᜆᜓ︀</small></h2>
 
-            <div class="cards staggered-cards m2 xl3">
-                <div class="card-panel waves-effect" :key="i" v-for="i in 20">
-                    <h3>On going project</h3>
-                    <p :key="il" v-for="il in (i % 3) + 1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque
-                        molestias facere iusto quos aperiam distinctio earum laboriosam dolorum
-                        laudantium ducimus dolor, accusantium tempora minus in dicta eaque vel
-                        aliquid?
+            <div class="cards" ref="msnryEl">
+                <div class="card-panel waves-effect" :key="i" v-for="(p, i) in projects">
+                    <h3>{{ p.title }}</h3>
+                    <p>
+                        {{ p.desc }}
                     </p>
                 </div>
             </div>
@@ -33,6 +47,8 @@
 
     .cards {
         .card-panel {
+            margin: unset;
+            margin-bottom: 2rem;
             overflow: hidden;
             box-shadow: unset;
             background-size: 100% 200%;
@@ -45,6 +61,15 @@
                 var(--primary-color-lighten-35) 100%
             );
             transition: background-position 0.3s ease;
+            width: 30%;
+
+            @media #{$m-d} {
+                width: calc(50% - 2rem);
+            }
+
+            @media #{$s-d} {
+                width: 100%;
+            }
 
             &:hover {
                 background-position: 100% 100%;

@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "title": "MSEUF (v4)",
+            "desc": "MSEUF Website (v4) is a Content Management System powered by Laravel and VueJS (via Inertia). It blends aesthetics with functionality, tailored for optimal SEO performance.",
+            "img": []
+        },
+        {
+            "title": "iExam",
+            "desc": "iExam, powered by CodeIgniter4, distinguishes itself through key features. Employing Azure AD for authentication ensures secure access, providing a reliable and authenticated user experience. Teachers are empowered to curate examinations by creating question pools and specifications, with the system dynamically generating assessments for a flexible and efficient approach. Prioritizing exam integrity, iExam incorporates basic anti-cheating detection measures within the examination platform, maintaining a fair testing environment. After the examination, the system facilitates a comprehensive review, allowing teachers to rate each question, identify areas for improvement, and mark questions for revision to enhance the overall quality of assessments.",
+            "img": []
+        },
+        {
+            "title": "Queueing System",
+            "desc": "Our Queueing System, developed with Laravel and VueJS (via Inertia) with Websockets, provides efficient kiosk interfaces and real-time monitoring. It simplifies queue management without claiming to redefine standards.",
+            "img": []
+        },
+        {
+            "title": "AEHEN (Adult Education in Higher Education Network)",
+            "desc": "AEHEN, developed on the CodeIgniter4 framework, serves as a platform for the exchange of expertise and academic papers, fostering collaboration among experts.",
+            "img": []
+        },
+        {
+            "title": "ICTD Online",
+            "desc": "ICTD Online, a CodeIgniter4 ticketing system with Azure AD Authentication, simplifies online ticketing for secure and efficient event management.",
+            "img": []
+        },
+        {
+            "title": "Admission System",
+            "desc": "The Admission System stands as an online student registration portal catering to Elementary through Graduate Studies. Streamlining the admission process, this system ensures a seamless and efficient experience for prospective students across various educational levels.",
+            "img": []
+        },
+        {
+            "title": "Enrollment System",
+            "desc": "Integrated as a module within a comprehensive Student Information System, the Enrollment System caters to both Undergraduate and Graduate Students. Its functionalities encompass subjects/section registration, assessment, and payment verification, providing a centralized and organized approach to enrollment management.",
+            "img": []
+        },
+        {
+            "title": "BeeGIS",
+            "desc": "BeeGIS is a Graphical Information System tailored for Bee Farms. This specialized system leverages graphical data representation to enhance the management and analysis of information crucial for the operations of beekeeping enterprises.",
+            "img": []
+        },
+        {
+            "title": "MSEUF Website (v3)",
+            "desc": "MSEUF Website (v3) is a CMS-type project utilizing the CodeIgniter Framework. Serving as a precursor to its successor, it lays the foundation for an efficient and user-friendly content management experience, emphasizing simplicity and functionality.",
+            "img": []
+        },
+        {
+            "title": "IMP Load",
+            "desc": "IMP Load is a dual-functionality system serving as both a tasks tracker and an inventory system. With a focus on efficiency, it streamlines task management while ensuring accurate monitoring and control of inventory.",
+            "img": []
+        },
+        {
+            "title": "EU Store",
+            "desc": "EU Store stands as an e-commerce website intricately linked with IMP Load's inventory system. This integration ensures seamless data management, offering a user-friendly online shopping experience while optimizing inventory control and order fulfillment.",
+            "img": []
+        },
+        {
+            "title": "iSmart",
+            "desc": "iSmart is a Student Information System designed for the primary and secondary levels of education. Tailored to meet the unique needs of these educational tiers, it efficiently manages student information, academic records, and administrative processes.",
+            "img": []
+        },
+        {
+            "title": "Tyto (Capstone)",
+            "desc": "Tyto serves as a Library Management System. Boasting features such as an Online Public Access Catalog (OPAC) for browsing catalogues, a sophisticated borrowing system, and notifications, it provides an advanced solution for efficient library administration and user engagement.",
+            "img": []
+        }
+    ]
+}
